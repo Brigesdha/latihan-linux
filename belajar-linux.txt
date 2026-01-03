@@ -1,0 +1,12 @@
+* File & Directory Operations
+  - ls -la = List all files and directories (include hidden) in long format.
+  - cd <dir> = Change current working directory to <dir>
+  - pwd = Print the current working directory path
+  - mkdir <dir> = Create a new directory
+  - mkdir -p <dir/subdir> = Create nested directories
+  - rm <file> = Delete a file
+  - rm -rf <dir> = Forcefully remove a directory and its contents recursively
+  - cp <src> <dest> = Copy files or directories (use -r for directories)
+  - mv <src> <dest> = Move or rename files
+  - touch <file> = Create a new empty file
+  - ln -s <file> <link> = Create a symbolic link to a file
