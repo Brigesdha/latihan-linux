@@ -23,3 +23,38 @@
   - chmod [permissions] [file] = Change file permissions (e.g., chmod 755 file)
   - chown [user]:[group] [file] = Change file owner and group
   - chgrp [group] [file] = Change file group ownership
+
+* System Information and Monitoring
+  - uname -a = Print system information
+  - uptime = Display how long the system has been running
+  - df -h = Show disk space usage in human-readable format
+  - du -sh [dir] = Estimate space usage of a directory
+  - free -m = Show free and used memory in MB
+  - top = Monitor active system processes in real-time
+  - htop = Interactive process viewer (alternative to top)
+  - ps aux = Display all running processes
+  - kill [pid] = Terminate a process by ID
+
+* Networking
+  - ping [host] = Send ICMP echo request to a host
+  - ifconfig = View network interface configuration
+  - ip addr show = Display IP addresses and interfaces
+  - netstat -tuln = Show listening TCP/UDP ports
+  - ssh [user]@[host] = Log in to a remote machine
+  - scp [file] [user]@[host]:[path] = Securely copy files to a remote host
+  - curl [URL] = Transfer data from or to a server
+
+* Package Management (Debian/Ubuntu)
+  - sudo apt update = Update package list
+  - sudo apt install [pkg] = install a new package
+  - sudo apt remove [pkg] = Remove a package  
+  - dpkg -i [file.deb] = install a local .deb file
+
+* Terminal Shortcuts
+  - Ctrl+C = Stop the current command
+  - Ctrl+Z = Suspend the current process
+  - Ctrl+L = Clear the screen
+  - Ctrl+R = Search command history
+  - !! = Repeat the last command
+  - exit = Log out of the current session
+  - man [command] = View the manual page for a command
