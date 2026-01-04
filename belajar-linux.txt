@@ -24,6 +24,18 @@
   - chown [user]:[group] [file] = Change file owner and group
   - chgrp [group] [file] = Change file group ownership
 
+* Compression and Archiving
+  - tar -cvzf <archive.tar.gz> <files> = Create a gzipped tar archive
+  - tar -xvzf <archive.tar.gz> = Extract a gzipped tar archive
+  - zip <archive.zip> <files> = Create a zip archive
+  - unzip <archive.zip> = Extract a zip archive
+
+* User Management
+  - sudo useradd <username> = Create a new User
+  - sudo passwd <usernama> = Change a user's password
+  - sudo usermod -aG <group> <user> = Add a user to a group
+  - whoami = Display current user
+
 * System Information and Monitoring
   - uname -a = Print system information
   - uptime = Display how long the system has been running
