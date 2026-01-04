@@ -44,11 +44,13 @@
   - scp [file] [user]@[host]:[path] = Securely copy files to a remote host
   - curl [URL] = Transfer data from or to a server
 
-* Package Management (Debian/Ubuntu)
-  - sudo apt update = Update package list
-  - sudo apt install [pkg] = install a new package
-  - sudo apt remove [pkg] = Remove a package  
-  - dpkg -i [file.deb] = install a local .deb file
+* Package Management (Fedora with dnf)
+  - sudo dnf update = Update all installed packages
+  - sudo dnf install [package] = Install a new package
+  - sudo dnf remove [package] = Unistall a package
+  - dnf search [keyword] = Search for a package in repositories
+  - dnf list installed = List all instaled package
+  - sudo dnf clean all = Clear the DNF cache
 
 * Terminal Shortcuts
   - Ctrl+C = Stop the current command
