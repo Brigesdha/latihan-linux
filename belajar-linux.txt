@@ -10,3 +10,16 @@
   - mv <src> <dest> = Move or rename files
   - touch <file> = Create a new empty file
   - ln -s <file> <link> = Create a symbolic link to a file
+
+* Viewing and Searching FIles
+  - cat [file] = View file contents
+  - less [file] = View file contents one page at a time
+  - head -n [num] [file] = View the first [num] lines of a file
+  - tail -f [file] = view the last 10 lines of a file in real-time
+  - grep [pattern] [file] = Search for a pattern in a file
+  - grep -r [pattern] [dir] = Search for a pattern recusively in a directory
+
+* File Permissions and Ownership
+  - chmod [permissions] [file] = Change file permissions (e.g., chmod 755 file)
+  - chown [user]:[group] [file] = Change file owner and group
+  - chgrp [group] [file] = Change file group ownership
